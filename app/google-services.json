@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048380444590",
+    "project_id": "myfcm-dicoding",
+    "storage_bucket": "myfcm-dicoding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048380444590:android:cb08e060bdbeb4c7af823f",
+        "android_client_info": {
+          "package_name": "id.develo.myfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048380444590-lu1ki09o0befndetej6ibm9d8qgv2t3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl19HhYAGCvTuZywiCjoXxdVbKtYbNk_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048380444590-lu1ki09o0befndetej6ibm9d8qgv2t3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
