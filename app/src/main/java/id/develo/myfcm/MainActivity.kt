@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
 
             Log.d(TAG, "Refreshed token: $deviceToken")
-            FirebaseMessaging.getInstance().token.addOnCompleteListener { deviceToken ->
-                val msg = getString(R.string.msg_token_fmt, deviceToken)
-                Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+            FirebaseMessaging.getInstance().token.addOnCompleteListener {
+                val msgLog = getString(R.string.msg_token_fmt, it)
+                Toast.makeText(this, msgLog, Toast.LENGTH_SHORT).show()
                 Log.d(TAG, "Refreshed token: $deviceToken")
             }
         }
